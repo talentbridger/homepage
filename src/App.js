@@ -94,6 +94,7 @@ class App extends Component {
                 placeholder="School"
                 value={this.state.school}
             />
+            <h6  style={{ opacity: '80%' }}> *Your data will only be shared with TalentBridger and the companies you choose to apply to.</h6>
             <button onClick={() => this.putDataToDB(this.state.message)}>
               Sign Up
             </button>

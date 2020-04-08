@@ -103,6 +103,13 @@ button {
   	line-height: 24px;
 }
 
+.grid2 h6 {
+    margin-left: 8%;
+    width: 80%;
+    margin-bottom: -35px;
+    margin-top: 20px;
+}
+
 .modal h3 {
 	margin-left: 4%;
 	color: black;
@@ -158,4 +165,9 @@ button {
 		font-size: 15px;
   		margin-top: -5%;
 	}
+
+    .grid2 h6 {
+        margin-top: 20px;
+        margin-bottom: -25px;
+    }
 }
