@@ -69,7 +69,7 @@ class App extends Component {
           </div>
           <div className="grid2" style={{ opacity: '90%' }}>
             <h3> Interested?</h3>
-            <h4 style={{ opacity: '70%' }}> Sign up here to be on the waiting list for the latest updates! If you have any questions or feedback, please contact us at talentbridger@gmail.com.</h4>
+            <h4 style={{ opacity: '70%' }}> Sign up here to start your profile! If you have any questions or feedback, please contact us at talentbridger@gmail.com.</h4>
             <input
                 type="text"
                 onChange={(e) => this.setState({ firstname: e.target.value })}
@@ -104,7 +104,7 @@ class App extends Component {
               style={customStyles}
             >
               <div className="modal">
-                <h3 style={{ opacity: '80%' }}> Thank you for your interest! We will try to get back to you as soon as possible.</h3>
+                <h3 style={{ opacity: '80%' }}> Thank you for your interest! Unfortunately, we have reached our capacity and are working hard to expand. We will get back to you as soon as possible!</h3>
               <button onClick={this.closeModal}>Close</button>
               </div>
             </Modal>
